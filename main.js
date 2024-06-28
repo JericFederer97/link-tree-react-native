@@ -6,7 +6,7 @@ function addLink(name, name2, link, image) {
   const text = ` 
     <a href="${ link }" class="link" target="blank">
       <div class=image>
-        <img src=${ image } alt='' />
+        <img src=${ image } alt='' height="50" width="50"/>
       </div>
       <div class="names">
         <span class="nameOne">${ name }</span>
